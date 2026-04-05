@@ -1,16 +1,26 @@
-import {createBrowserRouter} from "react-router-dom"
-import { Home } from "../pages/Home"
-import { DashbroadLayout } from "../pages/dashbroad"
-export const RouterProjects = function () {
-    return  createBrowserRouter([
-        {
-            path: "/",
-            element: <Home></Home>
-        },
-        {
-            path: "/dashbroad",
-            element: <DashbroadLayout />,
-            
-        }
-    ])
-}
+import {createBrowserRouter, type RouteObject} from "react-router-dom"
+import { Home } from "@/layouts/Home"
+import DashbroadPage from "@/pages/dashbroad"
+import PageMenu from "@/layouts/Menu"
+const adminRoutes: RouteObject = {
+  path: "/admin",
+  element: <DashbroadPage />,
+  children: [
+    {
+      index: true,
+      element: <Home />,
+    },
+    {
+      path: "home",
+      element: <Home />,
+    },
+    {
+      path: "menu",
+      element: <PageMenu />,
+    },
+  ],
+};
+
+export const mainRouter = createBrowserRouter([
+  adminRoutes,
+]);

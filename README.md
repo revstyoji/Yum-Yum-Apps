@@ -1,73 +1,26 @@
-# React + TypeScript + Vite
+# 🚀 Modern React + Vite Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Halo! Ini adalah project frontend saya yang dibangun menggunakan ekosistem terbaru tahun 2026. Project ini difokuskan pada kecepatan performa, keamanan tipe (Type-Safety), dan UI yang responsif.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Framework:** [React 19+](https://react.dev/)
+- **Build Tool:** [Vite 8](https://vitejs.dev/) (Lightning Fast HMR)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) (Engine Oxide)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **API Handling:** GraphQL (via Apollo/Client)
+- **Icons & UI:** Shadcn/UI & Lucide React
 
-## React Compiler
+## ✨ Fitur Utama
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Type-Safe Development:** Integrasi penuh dengan TypeScript untuk meminimalisir error.
+- **Optimized Build:** Konfigurasi *manual chunks* untuk loading aplikasi yang lebih cepat.
+- **Modern Alias:** Menggunakan `@/` alias untuk navigasi folder yang lebih bersih.
+- **API Proxy:** Terintegrasi dengan backend (NestJS) melalui Vite Proxy.
 
-## Expanding the ESLint configuration
+## 📦 Cara Instalasi
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. **Clone repository ini**
+   ```bash
+   git clone [https://github.com/Hikmal/nama-repo.git](https://github.com/username/nama-repo.git)
+   cd nama-repo
