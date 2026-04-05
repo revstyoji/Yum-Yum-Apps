@@ -22,5 +22,5 @@ Halo! Ini adalah project frontend saya yang dibangun menggunakan ekosistem terba
 
 1. **Clone repository ini**
    ```bash
-   git clone [https://github.com/Hikmal/nama-repo.git](https://github.com/username/nama-repo.git)
-   cd nama-repo
+   git clone git clone [https://github.com/Hikmal-source/yum-yum-apps.git](https://github.com/Hikmal-source/yum-yum-apps.git)
+   cd yum-yum-apps
