@@ -4,10 +4,10 @@ import { OrderChart } from "@/components/ordercharts";
 import type { StatItem } from "@/types/interface.statsItems";
 
 const STATS_CONFIG: StatItem[] = [
-  { label: "Pendapatan", value: "Rp100k", growth: "+20.1%", icon: DollarSign, variant: 'emerald' },
-  { label: "Pemesanan", value: "1,234", growth: "+12.5%", icon: ShoppingCart, variant: 'blue' },
-  { label: "Pelanggan", value: "856", growth: "+8.3%", icon: Users, variant: 'violet' },
-  { label: "Growth", value: "23.5%", growth: "+4.2%", icon: TrendingUp, variant: 'orange' },
+  { label: "Pendapatan", value: "Rp100k", growth: "+20.1%", icon: DollarSign, variant: 'lime' },
+  { label: "Pemesanan", value: "1,234", growth: "+12.5%", icon: ShoppingCart, variant: 'lime' },
+  { label: "Pelanggan", value: "856", growth: "+8.3%", icon: Users, variant: 'lime' },
+  { label: "Growth", value: "23.5%", growth: "+4.2%", icon: TrendingUp, variant: 'lime' },
 ];
 
 export const Home = () => {

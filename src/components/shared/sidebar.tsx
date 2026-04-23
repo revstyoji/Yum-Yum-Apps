@@ -7,7 +7,7 @@ import {
   SidebarMenuButton 
 } from "@/components/ui/sidebar"
 import { LayoutDashboard, ShoppingBag, Utensils, Users } from "lucide-react"
-import logo from "@/assets/yumyumlogo.png"
+import logo from "@/assets/logo2.png"
 
 export function AppSidebar() {
   // 1. Ambil path sekarang (Otomatis deteksi lokasi halaman)
@@ -30,7 +30,7 @@ export function AppSidebar() {
         /> 
         <div className="flex flex-col">
           <h2 className="text-xl font-extrabold tracking-tight text-slate-800 leading-none">
-            Yum<span className="text-red-300">Yums</span>
+            Yum<span className="text-lime-500">Yums</span>
           </h2>
           <p className="text-[10px] text-slate-400 font-medium tracking-widest mt-1">MANAGEMENT</p>
         </div>
@@ -47,14 +47,14 @@ export function AppSidebar() {
                 <SidebarMenuButton 
                   asChild 
                   isActive={isActive} 
-                  className={`py-7 px-4 transition-all duration-300 rounded-xl ${
+                  className={`py-7 px-4 transition-all duration-300 rounded-xl group ${
                     isActive 
-                      ? "!bg-slate-600  !text-white font-bold shadow-sm" 
-                      : "text-slate-500 hover:bg-slate-100 hover:text-slate-800" 
+                      ? "!bg-lime-600  !text-white font-bold shadow-sm" 
+                      : "text-lime-950 hover:bg-lime-100 hover:text-lime-950" 
                   }`}
                 >
                   <a href={item.url} className="flex items-center gap-3">
-                    <item.icon className={`w-5 h-5 transition-colors ${isActive ? "text-white" : "text-slate-400"}`} />
+                    <item.icon className={`w-5 h-5 transition-colors ${isActive ? "text-white" : "text-lime-950 group-hover:text-lime-950"}`} />
                     <span className="text-[15px]">{item.name}</span>
                   </a>
                 </SidebarMenuButton>

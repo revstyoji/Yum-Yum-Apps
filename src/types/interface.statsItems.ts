@@ -5,7 +5,7 @@ export interface StatItem {
   value: string | number;
   growth: string;
   icon: LucideIcon;
-  variant: 'emerald' | 'blue' | 'violet' | 'orange';
+  variant: 'emerald' | 'blue' | 'violet' | 'orange' | 'lime';
 }
 
 export interface ChartData {

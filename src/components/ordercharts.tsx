@@ -50,11 +50,11 @@ const BarItem = ({ item, maxLimit }: { item: ChartData; maxLimit: number }) => {
       </div>
       <div
         style={{ height: `${barHeight}px` }}
-        className="w-6 sm:w-10 bg-linear-to-t from-pink-200 to-red-300 rounded-t-xl rounded-b-md transition-all duration-500 ease-out group-hover/bar:from-pink-300 group-hover/bar:to-red-400 group-hover/bar:w-8 sm:group-hover/bar:w-12 shadow-sm relative"
+        className="w-6 sm:w-10 bg-linear-to-t from-lime-600 to-lime-300 bg-cover rounded-t-xl rounded-b-md transition-all duration-500 ease-out group-hover/bar:from-lime-600 group-hover/bar:to-lime-300 group-hover/bar:w-8 sm:group-hover/bar:w-12 shadow-sm relative"
       >
-        <div className="absolute top-0 left-0 w-full h-1/2 bg-white/20 rounded-t-xl" />
+        <div className="absolute top-0 left-0 w-full bg-white/20 rounded-t-xl" />
       </div>
-      <span className="text-[10px] font-bold text-slate-400 mt-3 group-hover/bar:text-red-400 transition-colors uppercase tracking-widest">
+      <span className="text-[10px] font-bold text-slate-400 mt-3 group-hover/bar:text-lime-400 transition-colors uppercase tracking-widest">
         {item.day}
       </span>
     </div>

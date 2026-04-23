@@ -40,7 +40,7 @@ export const FoodModal = ({ isOpen, editingId, formData, onChange, onClose, onSu
 
           <div className="space-y-1">
             <label className="text-[10px] font-bold text-slate-400 uppercase ml-1">Deskripsi</label>
-            <textarea className="w-full p-3 rounded-xl border border-slate-200 h-20 resize-none outline-none" value={formData.description} onChange={(e) => onChange({...formData, description: e.target.value})} />
+            <textarea className="w-full p-3 rounded-xl border border-slate-200 h-20 resize-none outline-none focus:ring-2 focus:ring-lime-300" value={formData.description} onChange={(e) => onChange({...formData, description: e.target.value})} />
           </div>
 
           <div className="space-y-1">
@@ -48,8 +48,8 @@ export const FoodModal = ({ isOpen, editingId, formData, onChange, onClose, onSu
             <input type="text" className="w-full p-3 rounded-xl border border-slate-200 outline-none" placeholder="https://..." value={formData.imageUrl} onChange={(e) => onChange({...formData, imageUrl: e.target.value})} />
           </div>
 
-          <button type="submit" className="w-full bg-red-500 text-white p-4 rounded-2xl font-bold hover:bg-red-600 transition-all shadow-lg mt-4 active:scale-95">
-            {editingId ? 'Simpan Perubahan ✨' : 'Tambahkan ke Menu ✨'}
+          <button type="submit" className="w-full bg-lime-600 text-white p-4 rounded-2xl font-bold hover:bg-lime-400 transition-all shadow-lg mt-4 active:scale-95">
+            {editingId ? 'Simpan Perubahan' : 'Tambahkan ke Menu'}
           </button>
         </form>
       </div>

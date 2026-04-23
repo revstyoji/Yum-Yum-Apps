@@ -60,10 +60,10 @@ export default function PageMenu() {
     <div className="p-8 space-y-8 animate-in fade-in duration-500 relative">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
-          <h2 className="text-2xl font-extrabold text-slate-900 tracking-tight underline decoration-red-200 decoration-4 underline-offset-4">Manajemen Menu</h2>
+          <h2 className="text-2xl font-extrabold text-slate-900 tracking-tight underline decoration-lime-600 decoration-4 underline-offset-4">Manajemen Menu</h2>
           <p className="text-sm text-slate-500">Ditemukan {foods.length} menu di database</p>
         </div>
-        <button onClick={() => setIsModalOpen(true)} className="flex items-center gap-2 bg-slate-900 text-white px-5 py-2.5 rounded-xl hover:bg-slate-800 transition-all shadow-lg font-bold text-sm">
+        <button onClick={() => setIsModalOpen(true)} className="flex items-center gap-2 bg-lime-600 text-white px-5 py-2.5 rounded-xl hover:bg-lime-400 cursor-pointer transition-all shadow-lg font-bold text-sm">
           <Plus className="h-4 w-4" /> Tambah Menu
         </button>
       </div>
