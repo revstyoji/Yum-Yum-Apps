@@ -44,7 +44,7 @@ export default function AdminLayout() {
                 <p className="text-[10px] font-bold text-slate-400 uppercase">Administrator</p>
                 <p className="text-xs font-bold text-slate-700">Admin</p>
               </div>
-              <div className="h-9 w-9 rounded-2xl bg-linear-to-tr from-orange-500 to-red-500 border-2 border-white shadow-md group-hover:rotate-6 transition-transform duration-300" />
+              <div className="h-9 w-9 rounded-2xl bg-linear-to-tr from-lime-300 to-lime-600 border-2 border-white shadow-md group-hover:rotate-6 transition-transform duration-300" />
             </div>
           </header> 
 

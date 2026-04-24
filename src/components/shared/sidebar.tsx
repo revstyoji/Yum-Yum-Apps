@@ -15,9 +15,9 @@ export function AppSidebar() {
 
   const menuItems = [
     { name: "Dashboard", icon: LayoutDashboard, url: "/admin/home" },
-    { name: "Pesanan", icon: ShoppingBag, url: "/orders" },
+    { name: "Pesanan", icon: ShoppingBag, url: "/admin/orders" },
     { name: "Menu", icon: Utensils, url: "/admin/menu" },
-    { name: "Pelanggan", icon: Users, url: "/customers" },
+    { name: "Pelanggan", icon: Users, url: "/admin/customers" },
   ]
 
   return (
