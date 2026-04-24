@@ -15,13 +15,13 @@ export default function PageMenu() {
   if (loading) return (
     <div className="h-screen w-full flex flex-col items-center justify-center gap-4 text-slate-500">
       <Loader2 className="h-10 w-10 animate-spin text-lime-600" />
-      <p className="font-bold animate-pulse">Lagi nyiapin menu makanan 🍳</p>
+      <p className="font-bold animate-pulse">Lagi nyiapin menu makanan</p>
     </div>
   );
 
   if (error) return (
     <div className="p-8 text-center bg-red-50 text-red-600 rounded-3xl border border-red-100 m-8">
-      <h2 className="font-black text-xl">Koneksi Putus! 🔌</h2>
+      <h2 className="font-black text-xl">Koneksi Putus!</h2>
       <p className="text-sm opacity-80">{error.message}</p>
     </div>
   );

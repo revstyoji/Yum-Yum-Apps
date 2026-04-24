@@ -7,7 +7,7 @@ import {
   SidebarMenuButton 
 } from "@/components/ui/sidebar"
 import { LayoutDashboard, ShoppingBag, Utensils, Users } from "lucide-react"
-import logo from "@/assets/logo2.png"
+import logo from "@/assets/logoyumyum.png"
 
 export function AppSidebar() {
   // 1. Ambil path sekarang (Otomatis deteksi lokasi halaman)

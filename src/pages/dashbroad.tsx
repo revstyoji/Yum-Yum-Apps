@@ -28,8 +28,6 @@ export default function AdminLayout() {
               <SidebarTrigger className="hover:bg-slate-100 border p-2 rounded-xl transition-all active:scale-95 shadow-sm" />
               
               <div className="h-6 w-px bg-slate-200 hidden sm:block" />
-              
-  
               <nav className="flex items-center gap-2 text-sm font-medium">
                 <span className="text-slate-400">Admin</span>
                 <span className="text-slate-300">/</span>
