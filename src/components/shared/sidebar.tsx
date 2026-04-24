@@ -25,12 +25,12 @@ export function AppSidebar() {
       <SidebarHeader className="p-6 flex flex-row items-center gap-3">
         <img 
           src={logo} 
-          alt="Yum Yums Logo" 
+          alt="YumYum Logo" 
           className="h-20 w-auto object-contain" 
         /> 
         <div className="flex flex-col">
           <h2 className="text-xl font-extrabold tracking-tight text-slate-800 leading-none">
-            Yum<span className="text-lime-500">Yums</span>
+            Yum<span className="text-lime-600">Yum</span>
           </h2>
           <p className="text-[10px] text-slate-400 font-medium tracking-widest mt-1">MANAGEMENT</p>
         </div>

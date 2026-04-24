@@ -42,8 +42,8 @@ export default function Orders() {
   return (
     <div className="p-6 lg:p-8 animate-in fade-in duration-500">
       <div className="mb-8">
-        <h2 className="text-2xl font-bold text-gray-800">Atur Pesanan</h2>
-        <p className="text-gray-500 text-sm">Kelola dan pantau pesanan pelanggan YumYums</p>
+        <h2 className="text-2xl font-bold text-gray-800">Manajemen Pesanan</h2>
+        <p className="text-gray-500 text-sm">Kelola dan pantau pesanan pelanggan YumYum</p>
       </div>
 
       <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">

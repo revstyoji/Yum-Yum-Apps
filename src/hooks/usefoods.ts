@@ -10,7 +10,7 @@ export const useFoods = () => {
   const [deleteFood] = useMutation(DELETE_FOOD, { refetchQueries: [{ query: GET_ALL_FOODS }] });
 
   const handleDelete = async (id: string) => {
-    if (confirm("Serius mau hapus? 🥺")) {
+    if (confirm("Serius mau hapus?")) {
       await deleteFood({ variables: { id } }).catch(console.error);
     }
   };
